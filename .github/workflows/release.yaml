@@ -1,9 +1,5 @@
 name: Build and release
 
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
-
 on: push
 
 jobs:
@@ -84,4 +80,6 @@ jobs:
     steps:
       - name: Release
         uses: softprops/action-gh-release@v1
+        with:
+          tag_name: 'v1'
 

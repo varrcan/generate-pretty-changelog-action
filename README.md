@@ -6,7 +6,7 @@
 
 Automatically generate changelog from your pull requests on GitHub.
 
-This action also makes the changelog file CHANGELOG.md and available to other actions as [output](#outputs).
+This action also makes the changelog file `CHANGELOG.md` and available to other actions as [output](#outputs).
 
 ## Example usage
 
@@ -40,7 +40,7 @@ jobs:
 
 | Name     | Description                                             | Required | Default                       |
 |----------|---------------------------------------------------------|----------|-------------------------------|
-| `use`    | Changelog generation implementation to use              | no       | `github`                      |
+| `use`    | Changelog generation implementation (`github` or `git`) | no       | `github`                      |
 | `config` | Use custom config file                                  | no       | `changelog.yaml`              |
 | `token`  | GitHub token (only required if github type is selected) | no       | `${{ secrets.GITHUB_TOKEN }}` |
 

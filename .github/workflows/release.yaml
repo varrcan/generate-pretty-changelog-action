@@ -4,10 +4,7 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
-on:
-  push:
-    tags:
-      - "*"
+on: push
 
 jobs:
   prepare:
@@ -76,6 +73,8 @@ jobs:
         with:
           commit_message: "chore: build changelog"
           commit_author: ${{ github.actor }} <${{ github.actor }}@noreply.github.com>
+          branch: master
+          tagging_message: 'v1'
 
   release:
     name: Release

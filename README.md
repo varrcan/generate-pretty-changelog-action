@@ -1,8 +1,6 @@
 [![License](https://img.shields.io/github/license/varrcan/generate-pretty-changelog-action.svg?style=flat-square)](LICENSE)
 [![Last commit](https://img.shields.io/github/last-commit/varrcan/generate-pretty-changelog-action.svg?style=flat-square)](https://github.com/varrcan/generate-pretty-changelog-action/commits)
 [![Latest tag](https://img.shields.io/github/tag/varrcan/generate-pretty-changelog-action.svg?style=flat-square)](https://github.com/varrcan/generate-pretty-changelog-action/releases)
-[![Issues](https://img.shields.io/github/issues/varrcan/generate-pretty-changelog-action.svg?style=flat-square)](https://github.com/varrcan/generate-pretty-changelog-action/issues)
-[![Pull requests](https://img.shields.io/github/issues-pr/varrcan/generate-pretty-changelog-action.svg?style=flat-square)](https://github.com/varrcan/generate-pretty-changelog-action/pulls)
 
 # ✏️ Generate Pretty Changelog
 

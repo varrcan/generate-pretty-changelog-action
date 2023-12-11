@@ -7,7 +7,6 @@ inputs:
   config:
     description: 'Path to config file'
     required: false
-    default: 'changelog.yaml'
   token:
     description: 'GitHub token'
     required: false

@@ -6,8 +6,11 @@ on:
       - master
     tags-ignore:
       - v*
-    paths-ignore:
-      - '**.md'
+    paths:
+      - '**.go'
+      - '**.js'
+      - 'go.mod'
+      - 'go.sum'
 
 jobs:
   prepare:

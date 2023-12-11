@@ -70,4 +70,3 @@ jobs:
           commit_message: "chore: build changelog"
           commit_author: ${{ github.actor }} <${{ github.actor }}@noreply.github.com>
           branch: master
-          tagging_message: 'v1.0.0'

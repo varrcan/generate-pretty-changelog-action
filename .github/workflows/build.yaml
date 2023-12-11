@@ -70,6 +70,9 @@ jobs:
         with:
           name: artifact
           path: bin
+      - name: Chmod
+        run: |
+          chmod +x bin/generate-changelog*
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: build changelog"

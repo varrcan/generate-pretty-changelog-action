@@ -34,6 +34,10 @@ jobs:
           body_path: CHANGELOG.md
 ```
 
+## Sample changelog
+
+![sample.png](.github/img/sample.png)
+
 ## Inputs
 
 | Name     | Description                                             | Required | Default                       |
